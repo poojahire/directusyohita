@@ -19,6 +19,16 @@
 				"type": "hook",
 				"name": "my-hooks",
 				"source": "src/my-hooks/index.js"
+			},
+			{
+				"type": "endpoint",
+				"name": "practice-api",
+				"source": "src/practice-api/index.js"
+			},
+			{
+				"type": "hook",
+				"name": "practice-hooks",
+				"source": "src/practice-hooks/index.js"
 			}
 		]
 	},
