@@ -58,14 +58,14 @@ export default (router,{database,services}) => {
 		let mailService = new MailService({schema:req.schema});
 
 		let mailOptions={
-			to: 'vedanti.mude@mobify.bz, aparna.pradhan@mobify.bz',
+			to: 'pooja.hire@mobify.bz',
 			cc:'sunil.salunke@mobify.bz, pooja.hire@mobify.bz,mandar.bakale@mobify.bz',
 			subject : 'Test Email',
 			template: {
 					name:'my-template',
 					data: {
-						user_name: 'Developers How are you? ',
-						message: 'Hope you get the answer for how to send email !'
+						username: 'Developers How are you? ',
+						message: 'Hope you get the answer to send email !'
 					}
 			}
 		};
